@@ -253,10 +253,21 @@ export default function CapilanoRvParkPage() {
           </div>
 
           <AnimateIn delay={400}>
-            <p className="mt-8 text-center text-sm text-gray-500">
-              Off-season (Oct–Apr) &amp; summer (May–Sept) pricing shown.
-              Children 12 and under stay free.
-            </p>
+            <div className="mt-8 text-center">
+              <p className="text-sm text-gray-500">
+                Off-season (Oct–Apr) &amp; summer (May–Sept) pricing shown.
+                Children 12 and under stay free.
+              </p>
+              <Link
+                href="/capilano-rv-park/sites"
+                className="mt-3 inline-flex items-center gap-1.5 text-sm font-medium text-[var(--nchkay-orange)] hover:underline"
+              >
+                View full rate tables
+                <svg className="h-3.5 w-3.5" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
+                  <path strokeLinecap="round" strokeLinejoin="round" d="M17 8l4 4m0 0l-4 4m4-4H3" />
+                </svg>
+              </Link>
+            </div>
           </AnimateIn>
         </div>
       </section>
@@ -293,6 +304,20 @@ export default function CapilanoRvParkPage() {
               </AnimateIn>
             ))}
           </div>
+
+          <AnimateIn delay={700}>
+            <div className="mt-10 text-center">
+              <Link
+                href="/capilano-rv-park/amenities"
+                className="inline-flex items-center gap-1.5 text-sm font-medium text-[var(--nchkay-orange)] hover:underline"
+              >
+                View all amenities
+                <svg className="h-3.5 w-3.5" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
+                  <path strokeLinecap="round" strokeLinejoin="round" d="M17 8l4 4m0 0l-4 4m4-4H3" />
+                </svg>
+              </Link>
+            </div>
+          </AnimateIn>
         </div>
       </section>
 
@@ -393,6 +418,20 @@ export default function CapilanoRvParkPage() {
               </AnimateIn>
             ))}
           </div>
+
+          <AnimateIn delay={500}>
+            <div className="mt-10 text-center">
+              <Link
+                href="/capilano-rv-park/activities"
+                className="inline-flex items-center gap-1.5 text-sm font-medium text-[var(--nchkay-orange)] hover:underline"
+              >
+                Explore all activities
+                <svg className="h-3.5 w-3.5" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
+                  <path strokeLinecap="round" strokeLinejoin="round" d="M17 8l4 4m0 0l-4 4m4-4H3" />
+                </svg>
+              </Link>
+            </div>
+          </AnimateIn>
         </div>
       </section>
 

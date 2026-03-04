@@ -21,6 +21,9 @@ export function Footer() {
             <Link href="/" className="text-gray-600 hover:text-[var(--nchkay-red)]">
               Portfolio
             </Link>
+            <Link href="/capilano-rv-park" className="text-gray-600 hover:text-[var(--nchkay-red)]">
+              Capilano RV Park
+            </Link>
             <Link href="/directory" className="text-gray-600 hover:text-[var(--nchkay-red)]">
               Directory
             </Link>
